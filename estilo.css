@@ -1,0 +1,177 @@
+* {
+    /*CSS RESET*/
+    /*zera as configurações de estilos anteriores para utilizar as novas*/
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+}
+
+body {
+    background-size: 4000px 4000px;
+    background-color:mediumturquoise ;
+}
+
+header {
+    width: 934px;
+    height: 200px;
+    border: 2px solid #000000;
+    background-size: 1000px;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-image: url(img/ceu.jpg);
+}
+
+.logo{
+    width: 150px;
+    height: 150px;
+    border: 2px solid #000000;
+    background-size: 1000px;
+    margin: 20px 20px ;
+    display: inline-block;
+    background-image: url(img/rosca.jpg);
+    background-size: 150px;
+}
+
+.escrita {
+    width: 550px;
+    height: 50px;
+    border: 2px solid #000000;
+    display: inline-block;
+    margin: 20px 20px ;
+    float: right;
+    font-size: 25px;
+    background-color: #FFF;
+    font-weight: bolder;
+    line-height: 50px;
+}
+
+nav {
+    width: 960px;
+    height: 100px;
+    border: none;
+    margin: 10px auto;
+}
+
+nav section {
+    width: 463px;
+    height: 80px;
+    float: right;
+    border: 2px #000000 solid;
+    margin-right: 6px;
+    margin-top: 6px;
+    margin-left: 6px;
+    background-color: aquamarine;
+    font-size: 25px;
+    font-weight: bolder;
+    line-height: 70px;
+}
+
+main {
+    width: 950px;
+    height: 600px;
+    border: none;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+aside {
+    width: 210px;
+    height: 600px;
+    border: 2px #000000 solid;
+    float: left;
+    margin-left: 4px;
+    background-color: #000;
+}
+
+
+
+aside section {
+    width: 200px;
+    height: 290px;
+    border: 2px #000000 solid;
+    margin-top: 5px;
+    float: left;
+    margin-left: 4px;
+    background-image: url(img/ceunoturno.jpg);
+}
+
+article {
+    width: 500px;
+    height: 565px;
+    border: 2px #000000 solid;
+    float: left;
+    padding-top: 35px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: aqua;
+}
+
+.retangulo {
+    width: 500px;
+    height: 200px;
+    
+}
+
+.quadrado1 {
+    width: 220px;
+    height: 180px;
+    border: 2px #000000 solid;
+    display: block;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    background-image: url(img/homer.jpg);
+}
+.quadrado2 {
+    width: 220px;
+    height: 180px;
+    border: 2px #000000 solid;
+    display: block;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    background-image: url(img/marge.jpg);
+}
+.quadrado {
+    width: 220px;
+    height: 180px;
+    border: 2px #000000 solid;
+    display: block;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    background-image: url(img/lisa.png);
+    
+}
+.quadrado4 {
+    width: 220px;
+    height: 180px;
+    border: 2px #000000 solid;
+    display: block;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    background-image: url(img/bart.jpg);
+}
+
+.container {
+    width: 460px;
+    height: 100px;
+    border: 2px #000000 solid;
+    margin: 12px auto;
+    background-color: palevioletred;
+}
+
+footer{
+    width: 943px; /*largura*/
+    height: 100px; /*altura*/
+    border: 2px solid #000000;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    background-color: palevioletred;
+    font-size: 30px;
+    font-weight: bolder;
+    line-height: 90px;
+}
